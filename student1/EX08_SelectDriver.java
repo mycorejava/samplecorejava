@@ -28,7 +28,10 @@ public class EX08_SelectDriver
     public static void main(String[] args)
     {
         EX08_SelectDriver s = new EX08_SelectDriver();
-        s.selectDriver("chrome");
+        for(int nCnt =0; nCnt < 3; nCnt++){
+            try{s.selectDriver("chrome");}
+            catch(Exception e){e.printStackTrace();}
+        }
         driver.get("https://www.google.com");
 
 

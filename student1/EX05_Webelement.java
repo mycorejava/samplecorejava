@@ -49,17 +49,17 @@ public class EX05_Webelement
 
         String tagName = sumitButton.getTagName();
         System.out.println("tag name is "+tagName);
-//
-//
-//        String getAttribute = sumitButton.getAttribute("xpath");
-//        System.out.println("attribute is "+getAttribute);
-//
-//        Dimension dimension = sumitButton.getSize();
-//        System.out.println("dimension height"+dimension.height+"dimension width"+dimension.width);
-//
-//        Point point = sumitButton.getLocation();
-//        System.out.println("x co-ordinated"+point.x);
-//        System.out.println("y co-ordinated"+point.y);
+
+
+        String getAttribute = sumitButton.getAttribute("xpath");
+        System.out.println("attribute is "+getAttribute);
+
+        Dimension dimension = sumitButton.getSize();
+        System.out.println("dimension height"+dimension.height+"dimension width"+dimension.width);
+
+        Point point = sumitButton.getLocation();
+        System.out.println("x co-ordinated"+point.x);
+        System.out.println("y co-ordinated"+point.y);
 
     }
 }
