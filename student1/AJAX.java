@@ -14,9 +14,9 @@ public class AJAX
         WebDriver driver = new ChromeDriver();
         driver.get("https://demos.telerik.com/aspnet-ajax/ajaxloadingpanel/functionality/explicit-show-hide/defaultcs.aspx");
 
-        driver.findElement(By.xpath("https://demos.telerik.com/aspnet-ajax/ajaxloadingpanel/functionality/explicit-show-hide/defaultcs.aspx")).click();
+        driver.findElement(By.xpath("//*[@id=\"ctl00_ContentPlaceholder1_RadCalendar1_Top\"]/tbody/tr[2]/td[2]/a")).click();
 
-
+        Thread.sleep(2000);
 
         WebDriverWait wait = new WebDriverWait(driver,30);
 
